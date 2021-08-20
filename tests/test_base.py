@@ -1,6 +1,6 @@
 import pytest
 
-from project_name import BaseClass, base_function
+from comp_img import BaseClass, base_function
 
 given = pytest.mark.parametrize
 

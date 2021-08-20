@@ -38,7 +38,7 @@ See also [Flask-Project-Template](https://github.com/rochacbruno/flask-project-t
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <comp_img>` or `$ comp_img` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -47,33 +47,33 @@ See also [Flask-Project-Template](https://github.com/rochacbruno/flask-project-t
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# project_name
+# comp_img
 
-[![codecov](https://codecov.io/gh/author_name/project_urlname/branch/main/graph/badge.svg?token=project_urlname_token_here)](https://codecov.io/gh/author_name/project_urlname)
-[![CI](https://github.com/author_name/project_urlname/actions/workflows/main.yml/badge.svg)](https://github.com/author_name/project_urlname/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/nutanstrek/comp_img/branch/main/graph/badge.svg?token=comp_img_token_here)](https://codecov.io/gh/nutanstrek/comp_img)
+[![CI](https://github.com/nutanstrek/comp_img/actions/workflows/main.yml/badge.svg)](https://github.com/nutanstrek/comp_img/actions/workflows/main.yml)
 
-project_description
+Awesome comp_img created by nutanstrek
 
 ## Install it from PyPI
 
 ```bash
-pip install project_name
+pip install comp_img
 ```
 
 ## Usage
 
 ```py
-from project_name import BaseClass
-from project_name import base_function
+from comp_img import BaseClass
+from comp_img import base_function
 
 BaseClass().base_method()
 base_function()
 ```
 
 ```bash
-$ python -m project_name
+$ python -m comp_img
 #or
-$ project_name
+$ comp_img
 ```
 
 ## Development
